@@ -2,7 +2,13 @@ import React from 'react';
 import './Header.css';
 
 function HeaderTitle (){
-    return <h1>Lambda School <span>@LambdaSchool 19:20</span></h1>
+    return (
+        <div className="HeaderTitle">
+        <h2>Lambda School</h2>
+        <p class="name">@LambdaSchool</p>
+        <p class="time">19:20</p> 
+        </div>
+    );
 };
 
 export default HeaderTitle;
