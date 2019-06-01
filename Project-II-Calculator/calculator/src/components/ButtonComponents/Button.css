@@ -1,0 +1,27 @@
+button {
+    color: black;
+    border-bottom: 2px solid #979797;
+    border-right: 2px solid #979797;
+    height: 94px;
+    font-size: 50px;
+    text-align: center;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.action_button {
+    width: 75%;
+}
+/* Make the clear button lighter text then athe rest */
+.light {
+    font-weight: lighter
+}
+
+.number_button {
+    width: 25%;
+}
+/* Color the operator items */
+.operation{
+    color: white;
+    background-color: #A0001E;
+}
